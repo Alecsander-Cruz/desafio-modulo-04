@@ -29,6 +29,6 @@ export default (mongoose) => {
     return object;
   });
 
-  const grade = mongoose.model('grades-test', schema, 'grades-test');
+  const grade = mongoose.model('grades', schema, 'grades');
   return grade;
 };
